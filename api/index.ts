@@ -6,6 +6,7 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     if (url === "/home") {
         return res.json({ message: "Welcome to the Home Page! 🏠" });
     }
+    
 
     if (url === "/about") {
         return res.json({ message: "This is the About Page! ℹ️" });
